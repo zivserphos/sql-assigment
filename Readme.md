@@ -131,6 +131,16 @@ command: select first_name, last_name , gender , salary , age_in_years
    from emp
    order by years_in_company
 
+## 14. 
+SELECT first_name, last_name FROM emp ORDER BY First_Name ASC, Last_Name ASC
+
+
+## 15.
+   command: select first_name, age_in_years , Weight_in_Kgs
+            from emp
+            order by Weight_in_Kgs ASC, age_in_years desc
+
+
 
 
 
