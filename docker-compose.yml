@@ -10,6 +10,7 @@ services:
       MYSQL_DATABASE: Cyber4s
     volumes: 
       - ./db:/docker-entrypoint-initdb.d
+      - ./sql-tabels:/docker-entrypoint-initdb.d
 
   adminer:
     image: adminer
